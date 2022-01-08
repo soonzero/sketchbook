@@ -124,7 +124,7 @@ input[type="range"]:focus::-webkit-slider-runnable-track {
   border-radius: 50%;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   margin-right: 5px;
-  transition: transform 400ms ease, box-shadow 400ms ease;
+  transition: transform 400ms ease, box-shadow 400ms ease, opacity 400ms ease;
 }
 
 .palette .color:last-child {
@@ -134,4 +134,5 @@ input[type="range"]:focus::-webkit-slider-runnable-track {
 .palette .color:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 12px rgba(50, 50, 93, 0.11), 0 1px 6px rgba(0, 0, 0, 0.08);
+  opacity: 0.95;
 }
